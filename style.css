@@ -188,10 +188,10 @@ header ul li a {
 }
 @keyframes animateMitrozzLogo {
     0%,100%{
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
     50%{
-        transform: translateX(-50px);
+        transform: translateY(-50px);
     }
 }
 
