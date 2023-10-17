@@ -167,7 +167,7 @@ header ul li a {
 .bg{
     position: absolute;
     right: 0;
-    max-width: 800px;
+    max-width: 500px;
     animation: animateBg 8s ease-in-out infinite;
 }
 @keyframes animateBg {
@@ -181,12 +181,12 @@ header ul li a {
 
 .mitrozzLogo{
     position: absolute;
-    right: 100px;
+    right: 0px;
     bottom: 0;
-    max-height: 85vh;
+    max-height: 75vh;
     animation: animateMitrozzLogo 8s ease-in-out infinite;
 }
-@keyframes animateBg {
+@keyframes animateMitrozzLogo {
     0%,100%{
         transform: translateX(0px);
     }
