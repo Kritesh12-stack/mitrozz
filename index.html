@@ -19,7 +19,7 @@
       </header>
       <div class="content">
         <h3>Hey_</h3>
-        <h2>We are <span id="text">Mitrozz</span></h2>
+        <h2>We are <span id="text"></span></h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
           excepturi molestiae fugit earum est perferendis. Debitis voluptates
@@ -49,7 +49,17 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
     <script>
+        let typingText = new Typed("#text",{
+            strings : ['Mitrozz','Complete','IT','Solutions'],
+            loop:true,
+            typeSpeed : 100,
+            backSpeed : 50,
+            backDelay : 1000,
+
+        })
         let banner = document.querySelector('.banner');
         let dayNight = document.querySelector('.dayNight');
         dayNight.onclick = function () {
